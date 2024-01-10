@@ -1,0 +1,88 @@
+.skills-display {
+  width: 75%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .skill-progress {
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+
+    .mb-blue {
+      background-color: #2857a4;
+    }
+
+    .mb-orange {
+      background-color: orange;
+    }
+
+    .mb-green {
+      background-color: green;
+    }
+    .mb-chocalate {
+      background-color: chocolate;
+    }
+
+    .fifty-percent {
+      width: 50%;
+      height: inherit;
+      box-shadow: 1px 1px 5px 2px#989882;
+    }
+
+    .sixty-percent {
+      width: 60%;
+      height: inherit;
+      box-shadow: 1px 1px 5px 2px#989882;
+    }
+    .seventy-percent {
+      width: 70%;
+      height: inherit;
+      box-shadow: 1px 1px 5px 2px#989882;
+    }
+    .eighty-five-percent {
+      width: 85%;
+      height: inherit;
+      box-shadow: 1px 1px 5px 2px#989882;
+    }
+    .eighty-percent {
+      width: 80%;
+      height: inherit;
+      box-shadow: 1px 1px 5px 2px#989882;
+    }
+
+    div {
+      border-radius: 20px 0px 0px 20px;
+      display: flex;
+      align-items: center;
+
+      .skill-name span {
+        color: rgb(20, 7, 7);
+        font-size: 1rem;
+        margin-left: 10px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-display {
+    .skill-progress {
+      flex-direction: column;
+      gap: 10px;
+      width: 8rem;
+      height: 1.5rem;
+      background-color: lightgrey;
+      border-radius: 1rem;
+      box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+      margin-top: 15px;
+      overflow: hidden;
+    }
+  }
+}
